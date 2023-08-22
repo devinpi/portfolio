@@ -1,0 +1,12 @@
+.side-bar{
+    background-color: rgb(230, 218, 203);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 1%;
+}
+
+.side-bar i{
+    color: black;
+    padding: 10px 5px 10px 5px;
+}

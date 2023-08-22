@@ -2,14 +2,14 @@
     display: flex;
     font-family: 'Allerta Stencil', sans-serif;
     font-family: 'Space Mono', monospace;
-    height: 50vh;
+    /* height: 50vh; */
     flex-direction: column;
+    /* padding-bottom: 30px;  */
 }
 
 .myself{
-    margin: 25% auto 5% auto;
+    margin: 15% auto 5% auto;
     font-size: 25px;
-    
 }
 
 .myself span {

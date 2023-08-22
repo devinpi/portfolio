@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../Button/Button';
 import "./Hero.css";
+import Sidebar from '../Sidebar/Sidebar';
 
 const Hero = () => {
     return(
@@ -14,6 +15,9 @@ const Hero = () => {
                 <div className='learn-btn'>
                     <Button />
                 </div>
+            </div>
+            <div>
+                <Sidebar />
             </div>
         </>
     );
