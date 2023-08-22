@@ -1,7 +1,23 @@
 .hero {
     display: flex;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Space Mono', monospace;
+    height: 50vh;
+    flex-direction: column;
 }
 
 .myself{
-    margin: auto;
+    margin: 25% auto 5% auto;
+    font-size: 25px;
+    
+}
+
+.myself span {
+    color: #E4B890;
+}
+
+.learn-btn {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
 }

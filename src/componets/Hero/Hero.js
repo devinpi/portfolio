@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Button from '../Button/Button';
 import "./Hero.css";
 
 const Hero = () => {
@@ -7,11 +7,13 @@ const Hero = () => {
         <>
             <div className='hero'>
                 <div className='myself'>
-                    <h2>Hi!</h2>
-                    <h2>My name is /*Devinder Singh */ </h2>
-                    <h2>I am a Software Developer</h2>
+                    <p>Hi!</p>
+                    <p>I'm <span>/* Devinder Singh */</span></p>
+                    <p>A Software Developer</p>
                 </div>
-                <div className='learn-btn'></div>
+                <div className='learn-btn'>
+                    <Button />
+                </div>
             </div>
         </>
     );
