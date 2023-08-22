@@ -1,0 +1,28 @@
+*{
+    color: white;
+}
+.color-e{
+    color: #BC592C;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    /* background: #5c5c5c; */
+    padding: 15px;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+
+.nav-links {
+    margin-left: auto;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin: 5px;
+}
