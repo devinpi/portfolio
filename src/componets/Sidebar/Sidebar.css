@@ -1,0 +1,21 @@
+.side-bar{
+    background-color: rgb(230, 218, 203);
+    display: inline-block;
+    /* position: sticky; */
+    position: absolute;
+    right: 1%;
+    top: 40%;
+}
+
+.inner{
+    position: relative;
+    /* right: 1%;
+    top: 40%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar i{
+    color: black;
+    padding: 10px 5px 10px 5px;
+}
