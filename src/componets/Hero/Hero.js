@@ -16,9 +16,8 @@ const Hero = () => {
                     <Button />
                 </div>
             </div>
-            <div>
-                <Sidebar />
-            </div>
+            <Sidebar />
+            
         </>
     );
 
